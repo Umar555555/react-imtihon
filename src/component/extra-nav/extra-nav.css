@@ -1,0 +1,94 @@
+.ex-cards{
+    padding: 50px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.extra{
+    width: 1195px;
+    margin: 0px auto;
+}
+.card{
+    width: 364px;
+    height: 258px;
+    display: flex;
+    align-items: center;
+}
+.conta{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 18px;
+}
+.card-title.acts{
+    color:aliceblue;
+}
+.card-text.acts{
+    color:aliceblue;
+}
+.back1{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/art.png);
+    background-size: 170px 258px;
+}
+.back2{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/yostiq.png);
+    background-size: 170px 258px;
+}
+.back3{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/bakal.png);
+    background-size: 170px 258px;
+}
+.back4{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/finjon.png);
+    background-size: 170px 258px;
+}
+.back5{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/sumkas.png);   
+    background-size: 170px 258px;
+}
+.back6{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/tillasavat.png);
+    background-size: 170px 258px;
+}
+.back7{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/4bakal.png);
+    background-size: 170px 258px;
+}
+.back8{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/orasochiq.png);
+    background-size: 170px 258px;
+}
+.back9{
+    width: 170px;
+    height: 258px;
+    background-image: url(./img/idish.png);
+    background-size: 170px 258px;
+}
+.extra-title{
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 38px;
+    margin-top: 100px;
+}

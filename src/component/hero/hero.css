@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    display: flex;
+    margin-top: 50px;
+    width: 1195px;
+    height: 450px;
+    background-image: url(./img/kravat.png);
+    background-size: 1195px 450px;
+    align-items: center;
+    padding-left: 120px;
+}
+.container-hero{
+    width: 450px;
+    height: 310px;
+    background-color: #F9D370CC;
+    padding-left: 80px;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 40px;
+}
+.hero-text{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 312px;
+}
+.hero-summa-1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #7B5136;
+}
+.hero-summa-2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #7B5136;
+    text-decoration: line-through solid #7B5136;
+}
+.hero-summa{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn{
+    width: 124px;
+    height: 50px;
+    background-color: #477F7F;
+    border:2px solid white;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgb(89, 89, 89);
+}
