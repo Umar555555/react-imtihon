@@ -9,6 +9,14 @@ import ExtraNav from './component/extra-nav/extra-nav'
 import { useState } from 'react'
 
 const App = () => {
+    const [modal, setmodal] = useState(false)
+    const modalFunction = ()=>{
+      setmodal((prec)=> !prec)
+    }
+    const modalFunction2 = ()=>{
+      setmodal((precs)=> precs = false)
+    }
+
     const [modes, setmodes] = useState(false)
     const modesFunction = ()=>{
         setmodes((prev)=> !prev)
@@ -16,9 +24,9 @@ const App = () => {
   return (
     <div className={`container ${modes && 'acts'}`} style={{boxSizing: 'border-box',width: '100%',padding: '0',maxWidth: '1440px',border: '0px solid white',backgroundColor: 'light', display: 'flex', flexDirection : 'column' , alignItems : 'center', margin : '0px auto'}}>
       <Header modes={modes} setmodes={setmodes} modesFunction={modesFunction} />
-      <Main />
-      <Nav modes={modes} />
-      <Hero />
+      <Main  modal={modal} setmodal={setmodal} modalFunction={modalFunction} modalFunction2={modalFunction2} />
+      <Nav modes={modes} modal={modal} setmodal={setmodal} modalFunction={modalFunction} modalFunction2={modalFunction2} />
+      <Hero  modal={modal} setmodal={setmodal} modalFunction={modalFunction} modalFunction2={modalFunction2}/>
       <ExtraNav modes={modes} />
       <Footer modes={modes}/>
     </div>

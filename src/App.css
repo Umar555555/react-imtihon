@@ -1,3 +1,9 @@
 .container.acts{
     background-color: black;
 }
+@media(max-width: 550px){
+    .container{
+        width: 390px;
+        
+    }
+}

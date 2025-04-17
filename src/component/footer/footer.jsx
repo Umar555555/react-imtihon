@@ -63,6 +63,13 @@ class Footer extends Component{
                       <p className="section1-about2">+12 3 0000 0000</p>
                       <p className="section1-about3">contact@brandemail.com</p>
                       </div>
+                      <ul className="section2-uls">
+                              <li className="section2-ul-li">Your cart</li>
+                              <li className="section2-ul-li">Your orders</li>
+                              <li className="section2-ul-li">Compared items</li>
+                              <li className="section2-ul-li">Wishlist items</li>
+                              <li className="section2-ul-li">Shipping detail </li>
+                          </ul>
                       <div className="brauzer">
                           <form action="https://facebook.com/">
                               <button className="facebook"></button>

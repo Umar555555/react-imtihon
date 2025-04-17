@@ -55,3 +55,62 @@
     margin-top: 20px;
     box-shadow: 0px 4px 10px rgb(89, 89, 89);
 }
+@media(max-width:550px){
+    .hero{
+        display: flex;
+        margin-top: -10px;
+        width: 390px;
+        padding-left: 0;
+        justify-content: center;
+        height: 300px;
+        background-image: url(./img/kravat.png);
+        background-size: 860px 300px;
+        background-position: center;
+    }
+    .container-hero{
+        width: 270px;
+        height: 220px;
+        padding-left: 20px;
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        
+        background-color: #ffffffcc;
+    }
+    .hero-title{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .hero-text{
+        font-weight: 300;
+        font-size: 16px;
+        width: 312px;
+        display: none;
+    }
+    .hero-summa-1{
+        font-weight: 700;
+        font-size: 28px;
+        color: #7B5136;
+        display: none;
+    }
+    .hero-summa-2{
+        font-weight: 700;
+        font-size: 16px;
+        color: #7B5136;
+        text-decoration: line-through solid #7B5136;
+    }
+    .hero-summa{
+        display: none;
+        align-items: center;
+        gap: 15px;
+    }
+    .btn{
+        width: 124px;
+        height: 50px;
+        background-color: transparent;
+        border:2px solid black;
+        margin-top: 20px;
+        box-shadow: 0px 0px 00px rgb(89, 89, 89);
+    }
+}

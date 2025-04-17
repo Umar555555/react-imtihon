@@ -377,11 +377,11 @@ const ExtraNav = ({modes}) => {
                 <div className="back1"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Tray<br />  with Foot</h1>
-                    <div className="wrpper"><div onClick={likFunction1} className={`item ${trud1 && 'active'}`}></div><div onClick={likFunction2} className={`item ${trud2 && 'active'}`}></div><div onClick={likFunction3} className={`item ${trud3 && 'active'}`}></div><div onClick={likFunction4} className={`item ${trud4 && 'active'}`}></div><div onClick={likFunction5} className={`item ${trud5 && 'active'}`}></div></div>
+                    <div className="wrppers"><div onClick={likFunction1} className={`item ${trud1 && 'active'}`}></div><div onClick={likFunction2} className={`item ${trud2 && 'active'}`}></div><div onClick={likFunction3} className={`item ${trud3 && 'active'}`}></div><div onClick={likFunction4} className={`item ${trud4 && 'active'}`}></div><div onClick={likFunction5} className={`item ${trud5 && 'active'}`}></div></div>
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back2"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Twill <br />Seat Cushion</h1>
@@ -389,7 +389,7 @@ const ExtraNav = ({modes}) => {
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back3"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Fluted Beverage <br />Glass</h1>
@@ -397,7 +397,7 @@ const ExtraNav = ({modes}) => {
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back4"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Ceramic <br />Egg Cup</h1>
@@ -409,11 +409,11 @@ const ExtraNav = ({modes}) => {
                 <div className="back5"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Small <br />Bamboo Box</h1>
-                    <div className="wrpper"><div onClick={likFunction21} className={`item ${trudo1 && 'active'}`}></div><div onClick={likFunction22} className={`item ${trudo2 && 'active'}`}></div><div onClick={likFunction23} className={`item ${trudo3 && 'active'}`}></div><div onClick={likFunction24} className={`item ${trudo4 && 'active'}`}></div><div onClick={likFunction25} className={`item ${trudo5 && 'active'}`}></div></div>
+                    <div className="wrppers"><div onClick={likFunction21} className={`item ${trudo1 && 'active'}`}></div><div onClick={likFunction22} className={`item ${trudo2 && 'active'}`}></div><div onClick={likFunction23} className={`item ${trudo3 && 'active'}`}></div><div onClick={likFunction24} className={`item ${trudo4 && 'active'}`}></div><div onClick={likFunction25} className={`item ${trudo5 && 'active'}`}></div></div>
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back6"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Metal Cutlery <br />Basket</h1>
@@ -421,7 +421,7 @@ const ExtraNav = ({modes}) => {
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back7"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>4-pack Ceramic <br />Cups</h1>
@@ -429,7 +429,7 @@ const ExtraNav = ({modes}) => {
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>
-            <div className="card">
+            <div className="cardas das">
                 <div className="back8"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>2-pack Linen <br />Napkins</h1>
@@ -441,7 +441,7 @@ const ExtraNav = ({modes}) => {
                 <div className="back9"></div>
                 <div className="conta">
                     <h1 className={`card-title ${modes && 'acts'}`}>Glazed Stoneware <br />Plate</h1>
-                    <div className="wrpper"><div onClick={likFunction41} className={`item ${trudue1 && 'active'}`}></div><div onClick={likFunction42} className={`item ${trudue2 && 'active'}`}></div><div onClick={likFunction43} className={`item ${trudue3 && 'active'}`}></div><div onClick={likFunction44} className={`item ${trudue4 && 'active'}`}></div><div onClick={likFunction45} className={`item ${trudue5 && 'active'}`}></div></div>
+                    <div className="wrppers"><div onClick={likFunction41} className={`item ${trudue1 && 'active'}`}></div><div onClick={likFunction42} className={`item ${trudue2 && 'active'}`}></div><div onClick={likFunction43} className={`item ${trudue3 && 'active'}`}></div><div onClick={likFunction44} className={`item ${trudue4 && 'active'}`}></div><div onClick={likFunction45} className={`item ${trudue5 && 'active'}`}></div></div>
                     <p className={`card-text ${modes && 'acts'}`}>30$</p>
                 </div>
             </div>

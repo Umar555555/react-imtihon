@@ -49,6 +49,7 @@
     border: none;
     box-shadow: 1px 4px 5px rgb(89, 89, 89);
     margin-top: 50px;
+    display: block;
 }
 .telegram{
     margin-top: 100px;
@@ -178,4 +179,224 @@
     color: #FFFFFF;
     font-weight: 300;
     font-size: 12px;
+}
+.section2-uls{
+    display: none;
+}
+@media(max-width:550px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* element */
+    .footer-t{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        color: aliceblue;
+        width: 390px;
+        height: 450px;
+        padding: 50px;
+        gap: 70px;
+        background-color: #0A032A;
+    }
+    .section-3{
+        display: none;
+    }
+    .section-4{
+        display: none;
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .section1-title{
+        font-weight: 700;
+        font-size: 28px;
+        padding-left: 40px;
+    }
+    .section1-about{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .section1-about1{
+        margin-top: -20px;
+    }
+    .section1-text{
+        font-weight: 400;
+        font-size: 16px;
+        display: none;
+        color: #FFFFFF80;
+    }
+    .section2-uls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: -30px;
+    list-style: none;
+    }
+    .section-title{
+        font-weight: 700;
+        font-size: 16px;
+        display: none;}
+    .load-more{
+        width: 273px;
+        height: 51px;
+        font-weight: 700;
+        font-size: 16px;
+        color: aliceblue;
+        background-color: #4C8787;
+        border: none;
+        box-shadow: 1px 4px 5px rgb(89, 89, 89);
+        margin-top: 0px;
+        display: none;
+    }
+    .telegram{
+        margin-top: 100px;
+        display: block;
+        justify-content: start;
+        align-items: center;
+        width: 360px;
+        padding-left: 15px;
+    }
+    .t-input{
+        width: 270px;
+        height: 43px;
+        border: 2px solid black;
+        text-indent: 20px;
+        margin-top: 20px;
+    }
+    .t-btn{
+        width: 65px;
+        height: 43px;
+        margin-top: 20px;
+        background-image: url(./img/email.png);
+        background-size: 65px 40px;
+        border: none;
+        outline: none;
+    }
+    .t-title{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .t-text{
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .t-title.acts{
+        font-weight: 700;
+        font-size: 28px;
+        color: #F3F6FF;
+    }
+    .t-text.acts{
+        font-weight: 400;
+        font-size: 18px;
+        color: #F3F6FF;
+    }
+    .uls{
+        list-style: none;
+        font-weight: 300;
+        font-size: 14px;
+        color: #f3f6ff83;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .section2-ul{
+        margin-top: -30px;
+        display: none;
+    }
+    .brauzer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 280px;
+    }
+    .facebook{
+        width: 19px;
+        height: 19px;
+        background-image: url(./img/Vector.svg);
+        border: none;
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+    }
+    .twitter{
+        width: 19px;
+        height: 19px;
+        background-image: url(./img/ant-design_twitter-outlined.svg);
+        border: none;
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+    }
+    .instagram{
+        width: 19px;
+        height: 19px;
+        background-image: url(./img/ant-design_instagram-filled.svg);
+        border: none;
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+    }
+    .youtube{
+        width: 19px;
+        height: 19px;
+        background-image: url(./img/vaadin_youtube.svg);
+        border: none;
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+    }
+    .data-wrap{
+        display: flex;
+        color: #FFFFFF80;
+        margin-top: 40px;
+        gap: 10px;
+    }
+    .section4-text{
+        font-weight: 300;
+        font-size: 16px;
+        color: #F3F6FF;
+        margin-top: 10px;
+    }
+    .comments{
+        font-weight: 400;
+        font-size: 14px;
+        color: #f3f6ff83;
+        margin-top: 10px;
+    }
+    .e{
+        border-bottom: 1px solid #FFFFFF80;
+        padding-bottom: 40px;
+    }
+    .footer-bottom{
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #050019;
+        width: 100%;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 12px;
+    }
 }

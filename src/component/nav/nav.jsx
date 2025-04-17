@@ -2,7 +2,13 @@ import React from 'react'
 import './nav.css'
 import { useState } from 'react'
 
-const Nav = ({modes}) => {
+const Nav = ({modes, modal, setmodal, modalFunction, modalFunction2}) => {
+    const [likee, setlikee] = useState(false)
+    const likeefuntion = ()=>{
+        setlikee((prevs)=> !prevs)
+    }
+
+
     const [trued1, settrued1]= useState(false)
     const [trued2, settrued2]= useState(false)
     const [trued3, settrued3]= useState(false)
@@ -245,14 +251,14 @@ const Nav = ({modes}) => {
                 <div className="left1"></div>
                 <div className="right1">
                     <h1 className="right1-title">INY VINTAGE CHAIR</h1>
-                    <button className="button">VIEW DETAILS</button>
+                    <button className="button" onClick={modalFunction}>VIEW DETAILS</button>
                 </div>
             </div>
             <div className="top-right-card">
                 <div className="left2"></div>
                 <div className="right2">
                     <h1 className="right2-title">LARGE TERRACOTA <br />VASE</h1>
-                    <button className="button">VIEW DETAILS</button>
+                    <button className="button" onClick={modalFunction}>VIEW DETAILS</button>
                 </div>
             </div>
         </div>
@@ -261,7 +267,7 @@ const Nav = ({modes}) => {
                 <div className="main-back">
                     <h1 className="main-left1-title">DECOR</h1>
                     <p className="main-left1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut     laboreet dolore magna aliqua.</p>
-                    <button className="button">VIEW DETAILS</button>
+                    <button className="button" onClick={modalFunction}>VIEW DETAILS</button>
                 </div>
             </div>
             <div className="main-card-left2">
@@ -276,7 +282,7 @@ const Nav = ({modes}) => {
                 <div className="main-right1-background">
                     <div className="like-detalis">
                         <div className="likes"></div>
-                        <div className="likes2"></div>
+                        <div className={`likes2 ${likee && 'acte'}`} onClick={likeefuntion}></div>
                     </div>
                 </div>
                 <div className="cont">
@@ -323,10 +329,25 @@ const Nav = ({modes}) => {
                 <div className="bottom-back">
                 <h1 className="main-left1-title">BOHO CHIC</h1>
                 <p className="main-left1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button className="btn-light">VIEW ALL</button>
+                <button className="btn-light" onClick={modalFunction}>VIEW ALL</button>
                 </div>
             </div>
         </div>
+        <div className="top-left-card2">
+                <div className="left1"></div>
+                <div className="right1">
+                    <h1 className="right1-title">INY VINTAGE CHAIR</h1>
+                    <button className="button" style={{backgroundColor: 'transparent', color: 'black', border: '2px solid black'  }} onClick={modalFunction}>VIEW DETAILS</button>
+        </div>
+        </div>
+        <div className={`main-modal ${modal && 'main-active'}`} onClick={modalFunction2}>
+      <div className="modal-container" onClick={modalFunction2}>
+        <h1 className="main-modal-title">Brand</h1>
+        <p className="main-modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa rem cumque sequi minus quis commodi reprehenderit magni facere animi! Itaque praesentium illum aliquam deleniti esse omnis perferendis, dignissimos exercitationem!
+        Nemo laudantium totam pariatur atque libero numquam eaque facilis minus? Architecto, odio accusamus quo nobis eaque dolorum? Cumque sunt, quis ab omnis fuga reiciendis, dolore sequi necessitatibus labore, eligendi deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe id at consectetur voluptatum accusamus aut libero. Ab, quod aliquam? Quos vero repudiandae nisi illum! Corporis non commodi pariatur maiores nostrum.
+        Dolor odit, et ratione magnam nobis rerum vitae neque itaque, ut dignissimos deleniti beatae necessitatibus possimus repudiandae asperiores consequuntur ipsa distinctio officiis ab exercitationem eligendi laborum reiciendis aliquam debitis! Amet! Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    </div>  
     </div>
   )
 }
